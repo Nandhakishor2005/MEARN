@@ -26,3 +26,4 @@ for(let value of arr){
 console.log(present)
 console.log(absent)
 
+
