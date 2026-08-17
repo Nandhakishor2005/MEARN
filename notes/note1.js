@@ -8,5 +8,3 @@
 
 // const pi =3.1457;
 // console.log(typeof(pi));
-  
- 
