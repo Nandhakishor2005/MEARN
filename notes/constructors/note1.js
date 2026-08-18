@@ -1,10 +1,9 @@
 function Student(id, name, age, course){  // constructor
+
     this.id = id;
     this.name = name;
     this.age = age;
     this.course = course;
-
-
 }
 Student.prototype.display =function(){
     console.log("hii")
