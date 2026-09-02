@@ -15,3 +15,9 @@ let car = {
     brand: "Honda",
     color: "Red"
 };
+
+//console.log(car.brand)
+car.year =2022
+car.color="blue"
+car.brand ="toyota"
+console.log(car)
