@@ -10,7 +10,7 @@ class Book{
         this.isRead = true;
     }
     getinfo(){
-        console.log(`Title of book : ${this.title}`,`Name of author :${this.author}`,`No of pages: ${this.pages}`,`Is read : ${this.isRead}`)
+        console.log(`Title of book : ${this.title}` `Name of author :${this.author}` `No of pages: ${this.pages}` `Is read : ${this.isRead}`)
     }
 
 }

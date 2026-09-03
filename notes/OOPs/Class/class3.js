@@ -19,5 +19,39 @@
 //  Create instances and demonstrate all methods
 
 class vehicle{
-    
+    constructor(make,model,year,color){
+        this.make = make;
+        this.model = model;
+        this.year = year;
+        this.color = color;
+    }
+    start(){
+        console.log("vroom vroomm")
+    }
+    stop(){
+        console.log("vehicle stopped")
+    }
 }
+
+class car extends vehicle{
+
+    constructor(numDoors){
+        this.numDoors = numDoors;
+    }
+    start(){
+        console.log("car engine is starting")
+    }
+
+    honk(){
+        console.log("car is honking")
+    }
+
+    openTrunk(){
+        console.log("Trunk opened")
+    }
+
+}
+
+class motorcycle extends vehicle{
+    
+} 
