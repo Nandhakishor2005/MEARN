@@ -53,5 +53,15 @@ class car extends vehicle{
 }
 
 class motorcycle extends vehicle{
-    
+    constructor(){
+        this.isSidecar = false;
+    }
+
+    displayInfo(){
+        console.log("include side car info")
+    }
+    wheelie(){
+        console.log("doing a wheeliee!!!")
+    }
 } 
+
