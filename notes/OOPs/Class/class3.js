@@ -65,3 +65,5 @@ class motorcycle extends vehicle{
     }
 } 
 
+obj1 = new motorcycle()
+
