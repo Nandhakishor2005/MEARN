@@ -31,14 +31,14 @@ class BankAccount {
     }
 }
 
-let account1 = new BankAccount("A101", "John", 1000);
-let account2 = new BankAccount("A102", "Jane", 500);
+let account1 = new BankAccount("A101", "prabin", 1000);
+let account2 = new BankAccount("A102", "ajin", 500);
 
 account1.deposit(200);
 
-console.log("John:", account1.getBalance());
+console.log("prabin:", account1.getBalance());
 
 account1.transfer(account2, 300);
 
-console.log("John:", account1.getBalance());
-console.log("Jane:", account2.getBalance());
+console.log("prabin:", account1.getBalance());
+console.log("ajin:", account2.getBalance());
