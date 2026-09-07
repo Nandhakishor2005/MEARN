@@ -21,3 +21,8 @@ console.log(fruits);
 
 let split = join.split(" - "); // convert string to array
 console.log(split);
+
+// reduce function 
+let a = [1,22,3,3,3344,4,444,4444,67];
+a.sort();
+console.log(a)
