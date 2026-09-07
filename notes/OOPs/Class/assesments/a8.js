@@ -29,7 +29,7 @@ class BankAccount {
     }
 }
 
-let account = new BankAccount("John", 1000);
+let account = new BankAccount("jithu", 1000);
 
 account.deposit(500);
 console.log(account.getBalance());

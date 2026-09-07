@@ -19,7 +19,7 @@ class Student {
     }
 }
 
-let student = new Student("John", 80);
+let student = new Student("ajin", 80);
 
 console.log(student.getMarks());
 
