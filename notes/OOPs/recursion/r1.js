@@ -19,12 +19,22 @@
 
 // console.log(fact(5));
 
-function count(n){
+// function count(n){
+//     if(n==0){
+//         return  ;
+//     }
+//     count(n-1);
+//     console.log(n);
+// }
+// count(5)
+// console.log("count stopped");
+
+function sumOfDigits(n){
     if(n==0){
-        return  ;
+        return;
     }
-    count(n-1);
-    console.log(n);
+    
 }
-count(5)
-console.log("count stopped");
+console.log(sumOfDigits(5))
+
+// sum of numbers
